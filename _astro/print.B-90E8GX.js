@@ -1,0 +1,1 @@
+function e(e=document,t=()=>window.print()){let n=[...e.querySelectorAll(`[data-print]`)];for(let e of n)e.hidden=!1,e.addEventListener(`click`,()=>t());return n.length}export{e as t};
